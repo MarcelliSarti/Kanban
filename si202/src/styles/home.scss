@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Principal{
+  display: flex;
+}
+
+.Esquerda{
+  align-self: center;
+  width: 50%;
+}
+
+.Separator{
+  height: 13px;
+}
+
+.PEsq{
+  margin: 0 auto;
+  width: 50%; /* Valor da Largura */
+  align-items: center;
+}
+
+.Esquerda img{
+  height: auto;
+  width: 100%;;
+}
+
+.Google, .Criar, .Texto {
+  display: flex;
+  background-color: #FF4033;
+  border-color: #FF4033;
+  border-radius: 8px;
+  font-family: 'Roboto', 'sans-serif';
+  color: white;
+  font-size: 12px;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: filter 0.2s; 
+  cursor: pointer;
+}
+
+.Google:hover, .Criar:hover{
+  filter: brightness(0.9);
+}
+
+.Esquerda .Google img{
+  width: 20px;
+  height: 20px;
+}
+
+.Esquerda .Outro{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Esquerda span{
+  color: #A8A8B3;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 10px;
+}
+
+.Linha{
+  background-color: #A8A8B3;
+  height: 1px;
+  width: 90px;
+}
+
+.Esquerda .Texto{
+  padding: 5px 5px 5px 5px;
+  border: solid #A8A8B3;
+  background-color: #FFF;
+}
+
+.Esquerda .Texto:focus{
+  border: solid #5271FF;
+}
+
+.Esquerda .Criar{
+  background-color: #5271FF;
+  border-color: #5271FF;
+  color: white;
+}
+
+.Direita {
+  width: 50%;
+  height: 100vh;
+  border: 0;
+}

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Principal{
+  display: flex;
+}
+
+.Separator{
+  height: 13px;
+}
+
+.Esquerda{
+  align-self: center;
+  width: 50%;
+}
+
+.PEsq{
+  margin: 0 auto;
+  width: 50%; /* Valor da Largura */
+  align-items: center;
+}
+
+.Esquerda img{
+  height: auto;
+  width: 100%;;
+}
+
+.Esquerda h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Esquerda .Texto, .Esquerda .Criar{
+  padding: 5px 5px 5px 5px;
+  border-radius: 8px;
+  border: solid #A8A8B3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+.Esquerda .Texto:focus{
+  border: solid #5271FF;
+}
+
+.Esquerda .Criar{
+  background-color: #5271FF;
+  border-color: #5271FF;
+  color: white;
+  transition: filter 0.2s; 
+  cursor: pointer;
+}
+
+.Esquerda .Criar:hover{
+  filter: brightness(0.9);
+}
+
+.Esquerda span{
+  color: #737380;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.Esquerda a{
+  color: #FF4033;
+}
+
+.Direita {
+  width: 50%;
+  height: 100vh;
+  border: 0;
+}

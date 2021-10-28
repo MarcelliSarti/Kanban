@@ -1,0 +1,102 @@
+#Content{
+  background-color: #fff;
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+  font-family: 'Poppins', 'sans-serif';
+  padding: 10px 5px 10px 10px;
+  gap: 70px;
+
+  span{
+    font-size: 18px;
+  }
+
+  .Cartoes-header {
+    display: flex;
+  
+    h3{
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: bolder;
+      color: #000;
+      width: 90%;
+      gap: 10px;;
+    }
+
+    h2{
+      cursor: pointer;
+    }
+  }
+
+  .Cartoes-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .Informacoes{
+      width: 90%;
+      display: flex;
+      align-items: center;
+
+      span{
+        font-size: 15px;
+        font-weight: bold;
+        gap: 10px;
+      }
+  
+      .Pessoa{
+        width: 30px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+      }
+    }
+
+    
+
+    svg{
+      cursor: pointer;
+      transition: filter 0.2s;
+    }
+
+    svg:hover{
+      filter: brightness(0.8);
+    }
+  }
+}
+
+.Content.Vermelho{
+  border: 2px solid #FF4033;
+  .Cartoes-header {  
+    h2{
+      color: #FF4033;
+    }
+  }
+}
+
+.Content.Amarelo{
+  border: 2px solid #FFC604;
+  .Cartoes-header {  
+    h2{
+      color: #FFC604;
+    }
+  }
+}
+.Content.Azul{
+  border: 2px solid #5271FF;
+  .Cartoes-header {  
+    h2{
+      color: #5271FF;
+    }
+  }
+}
+
+.modalCorpo svg{
+  display: flex;
+  margin: 0 auto;
+} 
+
+#ExcluirModal.modal-header{
+  height: 70px; 
+}
