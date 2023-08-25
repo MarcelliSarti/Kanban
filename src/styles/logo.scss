@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Cima{
+  display: flex;
+}
+
+.Baixo{
+  display: flex;
+}
+
+.Azul{
+  background-color: #5271FF;
+  height: 50vh;
+  width: 50%;
+}
+
+.Branco{
+  font-family: 'Poppins', 'sans-serif';
+  height: 50vh;
+  width: 50%;
+  display: grid;
+  padding: 5px 5px 5px 5px;
+  font-weight: 500;
+}
+
+.Branco img{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 10px;
+}
+
+.Branco h2{
+  text-align: center;
+  align-self: flex-end;
+}
+
+.Amarelo{
+  background-color: #FFC604;
+  height: 50vh;
+  width: 50%;
+}
+
+.Vermelho{
+  background-color: #FF4033;
+  height: 50vh;
+  width: 50%;
+}
