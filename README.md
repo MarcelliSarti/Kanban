@@ -1,4 +1,4 @@
-# NLW-LetMeAsk
+# Kanban
 Quadro Kanban para organização de tarefas desenvolvido com React Js e banco de dados não relacional Firebase.
 
 # Pré-requisitos
@@ -22,3 +22,6 @@ Projeto desenvolvido com React Js e Firebase, com objetivo de cadastro de tarefa
 
 # Link de demonstração
 https://youtu.be/o-nPlTMR5j8
+
+# Figma
+https://www.figma.com/file/P1xwkerbiRZnzzz3O4W1SQ/SI202?type=design&node-id=0%3A1&mode=design&t=KwiRUVvnsR3GktlI-1
